@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'org.eagleinvsys.test'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.8.2'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.8.2'
+
+}
+
+tasks.withType(Test) {
+    useJUnitPlatform()
+    jvmArgs '--enable-preview'
+}
