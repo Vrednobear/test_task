@@ -1,8 +1,8 @@
 package org.eagleinvsys.test.converters.impl;
 
-import org.eagleinvsys.execption.FileProcessingException;
-import org.eagleinvsys.execption.NullCollectionException;
-import org.eagleinvsys.execption.NullHeaderException;
+import org.eagleinvsys.exceptions.FileProcessingException;
+import org.eagleinvsys.exceptions.NullCollectionException;
+import org.eagleinvsys.exceptions.NullHeaderException;
 import org.eagleinvsys.test.converters.Converter;
 import org.eagleinvsys.test.converters.ConvertibleCollection;
 import org.eagleinvsys.test.converters.ConvertibleMessage;

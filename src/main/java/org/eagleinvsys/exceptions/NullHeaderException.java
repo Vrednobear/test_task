@@ -1,4 +1,4 @@
-package org.eagleinvsys.execption;
+package org.eagleinvsys.exceptions;
 
 public class NullHeaderException extends RuntimeException {
 

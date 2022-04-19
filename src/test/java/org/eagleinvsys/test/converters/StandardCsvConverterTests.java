@@ -1,7 +1,7 @@
 package org.eagleinvsys.test.converters;
 
-import org.eagleinvsys.execption.NullCollectionException;
-import org.eagleinvsys.execption.NullHeaderException;
+import org.eagleinvsys.exceptions.NullCollectionException;
+import org.eagleinvsys.exceptions.NullHeaderException;
 import org.eagleinvsys.test.converters.impl.CsvConverter;
 import org.eagleinvsys.test.converters.impl.StandardCsvConverter;
 import org.junit.jupiter.api.BeforeEach;
